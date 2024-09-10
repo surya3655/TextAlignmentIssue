@@ -52,7 +52,7 @@ namespace FrameWorkIssue
 
     public class TextAlignmentViewModel : INotifyPropertyChanged
     {
-        private TextAlignment _verticalTextAlignment;
+        private TextAlignment _verticalTextAlignment = TextAlignment.End;
        
         public ObservableCollection<TextAlignment> VerticalTextAlignmentOptions { get; } = new()
         {
